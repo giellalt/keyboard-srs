@@ -1,0 +1,40 @@
+# This template merge config file lists:
+# - patterns: strings to do text substitution on
+# - rev_id: a sequential revision id of the template repo (manually maintained for now)
+# - required: a full list of all files always merged
+# - optional: a full list of all files merged when the --optional flag is used with `gut template`
+name = "Keyboard Template"
+patterns = ["srs", "srs", "Tsuutʼina"]
+rev_id = 3
+required = ["und.timestamp",
+            "configure.ac",
+            "INSTALL",
+            "AUTHORS",
+            "images/srs-keyboard-menu-icon.png",
+            "ios/Fastfile",
+            "ios/Matchfile",
+            "README",
+            "Makefile.am",
+            "m4/giella_macros.m4",
+            "m4/ax_compare_version.m4",
+            "m4/ax_python_module.m4",
+            "doc/index.html",
+            "doc/layout.html",
+            "doc/00README.txt",
+            "doc/readme.html",
+            "doc/background.png",
+            "LICENCE",
+            "autogen.sh"]
+
+optional = ["srs.kbdgen/project.yaml",
+            "srs.kbdgen/targets/android.yaml",
+            "srs.kbdgen/targets/win.yaml",
+            "srs.kbdgen/targets/mac.yaml",
+            "srs.kbdgen/targets/ios.yaml",
+            "srs.kbdgen/resources/mac/readme.html",
+            "srs.kbdgen/resources/mac/background.png",
+            "srs.kbdgen/resources/mac/icon.srs.png",
+            "srs.kbdgen/layouts/srs.yaml",
+            "srs.kbdgen/layouts/en.yaml"]
+
+ignored  = []

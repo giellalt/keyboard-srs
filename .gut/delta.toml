@@ -1,0 +1,8 @@
+template = ""
+rev_id = 3
+template_sha = "bad9d2392ecf1eef72070ce143897338af2dca62"
+
+[replacements]
+__UND2C__ = "srs"
+__UNDEFINED__ = "Tsuutʼina"
+__UND__ = "srs"

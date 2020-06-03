@@ -254,16 +254,16 @@ deadKeys:
     default: ['¯', '`', '´']
     shift:   ['¯', '`', '´']
   mac:
-    default: [´]
-    shift: ['`']
+    default: [´, '-', "'", '`']
+    shift: ['`', '?']
     caps: [´]
     alt: ['-', ¨, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
     alt+shift: [ʔ, №]
     caps+alt: ['-', ¸, ƒ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
     cmd+alt: [¸, ƒ, ˙]
   win:
-    shift: ['`']
-    caps+shift: ['`']
+    shift: ['`', '-', "'"]
+    caps+shift: ['`', '?']
     alt: ['~', ¨, ´]
     alt+shift: [^, ˇ]
 

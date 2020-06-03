@@ -241,6 +241,18 @@ longpress:
   '''': '‚ ‘ ’'
 
 deadKeys:
+  android:
+    default: ['¯', '`', '´']
+    shift:   ['¯', '`', '´']
+  ios:
+    default: ['¯', '`', '´']
+    shift:   ['¯', '`', '´']
+  ipad-9in:
+    default: ['¯', '`', '´']
+    shift:   ['¯', '`', '´']
+  ipad-12in:
+    default: ['¯', '`', '´']
+    shift:   ['¯', '`', '´']
   mac:
     default: [´]
     shift: ['`']

@@ -724,14 +724,12 @@ strings:
   return: "linnjá\u00ADmolsun"
 
 targets:
-  win:
-    locale: srs-Latn-US
   chrome:
     locale: "en"
     xkbLayout: "en"
-  ios:
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-srs?channel=nightly&platform=mobile
-    spellerPath: srs.bhfst
-  android:
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-srs?channel=nightly&platform=mobile
-    spellerPath: srs.bhfst
+#  ios:
+#    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-srs?channel=nightly&platform=mobile
+#    spellerPath: srs.bhfst
+#  android:
+#    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-srs?channel=nightly&platform=mobile
+#    spellerPath: srs.bhfst

@@ -5,13 +5,13 @@ displayNames:
 modes:
   android:
     default: |
-      á š e r t y u i o p ŋ
-      a s d f g h j k l đ ŧ
-         ž z č c v b n m
+      q w e r t y u i o p ¯
+      a s d f g h j k l ` ´
+         z x c v b n m ʔ
     shift: |
-      Á Š E R T Y U I O P Ŋ
-      A S D F G H J K L Đ Ŧ
-         Ž Z Č C V B N M
+      Q W E R T Y U I O P ¯
+      A S D F G H J K L ` ´
+         Z X C V B N M ʔ
   ios:
     default: |
       á š e r t y u i o p ŋ

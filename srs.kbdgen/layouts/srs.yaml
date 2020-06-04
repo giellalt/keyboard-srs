@@ -733,7 +733,7 @@ transforms:
     U: Ũ
 
 strings:
-  space: space
+  space: "gūnáhà gīzāá"
   return: "ìst'áà"
 
 targets:

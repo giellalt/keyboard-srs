@@ -254,14 +254,14 @@ deadKeys:
   ipad-12in:
     default: ['¯', '`', '´']
     shift:   ['¯', '`', '´']
-  mac:
-    default: [´, '-', "'", '`']
-    shift: ['`', '?']
-    caps: [´]
-    alt: ['-', ¨, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
-    alt+shift: [ʔ, №]
-    caps+alt: ['-', ¸, ƒ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
-    cmd+alt: [¸, ƒ, ˙]
+  # mac:
+  #   default: [´, '-', "'", '`']
+  #   shift: ['`', '?']
+  #   caps: [´]
+  #   alt: ['-', ¨, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
+  #   alt+shift: [ʔ, №]
+  #   caps+alt: ['-', ¸, ƒ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
+  #   cmd+alt: [¸, ƒ, ˙]
   win:
     shift: ['`', '-', "'"]
     caps+shift: ['`', '?']

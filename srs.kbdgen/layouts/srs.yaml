@@ -746,3 +746,5 @@ targets:
   android:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-srs?channel=nightly&platform=mobile
     spellerPath: srs.bhfst
+  win:
+    locale: srs-Latn

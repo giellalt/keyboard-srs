@@ -161,7 +161,7 @@ macOS:
     cmd+alt: \u{A0}
     alt+caps: \u{A0}
   deadKeys:
-    default: ['-', '''', '`']
+    default: ['-', '`']
     shift: ['?']
     alt: ['-', '¨', 'ƒ', 'ʼ', 'ˀ', 'ˆ', 'ˇ', '˘', '˙', '˚', '˝']
     alt+shift: ['ʔ', '№']
@@ -210,7 +210,7 @@ windows:
         ¯ SS Ð ƒ © ˍ ˝ ˚ - … Æ «
         § ˀ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
   deadKeys:
-    shift: ['`', '-', '''']
+    shift: ['`', '-']
     caps+shift: ['`', '?']
     alt: ['~', '¨', '´']
     alt+shift: ['^', 'ˇ']

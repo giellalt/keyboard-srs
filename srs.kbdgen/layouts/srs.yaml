@@ -1,6 +1,7 @@
 displayNames:
   srs: Tsuutʼina
   en: Tsuutʼina
+
 android:
   config:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-srs?channel=nightly&platform=mobile
@@ -28,6 +29,7 @@ android:
         ʼ W E R T Y U I O P ¯
         A S D F G H J K L ` ´
         \s{shift} Z X C V B N M ʔ \s{backspace}
+
 iOS:
   config:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-srs?channel=nightly&platform=mobile
@@ -50,6 +52,7 @@ iOS:
         [ ] { } # % ^ * + =
         _ \ | ~ < > € $ £ •
         \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+
   iPad-9in:
     layers:
       default: |
@@ -76,6 +79,7 @@ iOS:
         \s{spacer:0.75}  1 2 3 4 5 6 7 8 9 0 ´ \s{backspace:1.25}
         \s{shiftSymbols} € $ £ ^ [ ] { } — ° … \s{shiftSymbols}
         \s{spacer:1.5}    § | ~ ≠ \ < > ! ?    \s{spacer:0.5} \s{return:2}
+
   iPad-12in:
     layers:
       default: |
@@ -106,6 +110,7 @@ iOS:
   deadKeys:
     default: ['¯', '`', '´']
     shift: ['¯', '`', '´']
+
 macOS:
   primary:
     layers:
@@ -162,6 +167,7 @@ macOS:
     alt+shift: ['ʔ', '№']
     cmd+alt: ['¸', 'ƒ', '˙']
     alt+caps: ['-', '¸', 'ƒ', 'ˀ', 'ˆ', 'ˇ', '˘', '˙', '˚', '˝']
+
 windows:
   config:
     locale: srs-Latn
@@ -208,6 +214,7 @@ windows:
     caps+shift: ['`', '?']
     alt: ['~', '¨', '´']
     alt+shift: ['^', 'ˇ']
+
 chromeOS:
   config:
     locale: en
@@ -244,6 +251,7 @@ chromeOS:
         Q W \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} ^ ˇ
         Â \u{0} \u{0} \u{0} Ǧ Ǥ \u{0} Ǩ \u{0} Ö Ä *
         Ǯ Ʒ X \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+
 transforms:
   '?':
     ' ': '?'
@@ -707,6 +715,7 @@ transforms:
     O: Õ
     u: ũ
     U: Ũ
+
 longpress:
   A: Ä Á À Â Ã Ā Ạ Å Æ
   Á: Q
@@ -754,7 +763,7 @@ longpress:
   '.': ', ; : ? ! ¿ ¡'
   '"': „ “ ” « »
   "'": ‚ ‘ ’
+
 keyNames:
   space: dīgīzāá
   return: ìst'áà
-

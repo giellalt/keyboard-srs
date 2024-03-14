@@ -110,6 +110,7 @@ iOS:
   deadKeys:
     default: ['¯', '`', '´']
     shift: ['¯', '`', '´']
+    caps: ['¯', '`', '´']
 
 macOS:
   primary:
